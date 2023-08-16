@@ -1,9 +1,9 @@
   name: screenshot
 
   on:
-  push:
-    branches:
-      - "main"
+    push:
+      branches:
+        - "main"
   jobs:
     screenshot-no-width:
       name: screenshot
