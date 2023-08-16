@@ -1,4 +1,4 @@
-- name: screenshot-website
+  name: screenshot-website
   # You may pin to the exact commit or the version.
   # uses: swinton/screenshot-website@ebee86398fa0b725f4080fd8a016d845211dd279
   uses: swinton/screenshot-website@v1.0.0
