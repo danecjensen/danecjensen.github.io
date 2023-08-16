@@ -6,7 +6,7 @@
       - "main"
   jobs:
     screenshot-no-width:
-    name: Screenshot (no width)
+    name: Screenshot
     runs-on: ubuntu-latest
 
     steps:
