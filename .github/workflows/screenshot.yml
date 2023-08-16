@@ -10,17 +10,22 @@
       runs-on: ubuntu-latest
   
       steps:
-  
-      - name: Checkout
-        uses: swinton/screenshot-website@ebee86398fa0b725f4080fd8a016d845211dd279
-  
-      - name: Capture Screenshot
-        id: screenshot
-        uses: ./
+      - name: Screenshot Website
+        uses: swinton/screenshot-website@v1.x
         with:
           source: https://www.danecjensen.com/2023/08/11/building-in-public.html
-          # destination: "screenshot.png"
-          full-page: true
+          destination: screenshot.png
+    
+      # - name: Checkout
+      #   uses: swinton/screenshot-website@ebee86398fa0b725f4080fd8a016d845211dd279
+  
+      # - name: Capture Screenshot
+      #   id: screenshot
+      #   uses: ./
+      #   with:
+      #     source: 
+      #     # destination: "screenshot.png"
+      #     full-page: true
   # # You may pin to the exact commit or the version.
   # # uses: swinton/screenshot-website@ebee86398fa0b725f4080fd8a016d845211dd279
   # uses: swinton/screenshot-website@v1.0.0
