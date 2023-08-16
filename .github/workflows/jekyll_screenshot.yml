@@ -1,0 +1,4 @@
+- name: Jekyll Screenshot
+  # You may pin to the exact commit or the version.
+  # uses: hakierspejs/jekyll-screenshot-github-action@d43cdc6a89276c56b743191a4a7ff9cced535c48
+  uses: hakierspejs/jekyll-screenshot-github-action@1.0
