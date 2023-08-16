@@ -20,7 +20,7 @@
       - name: Download
         uses: actions/download-artifact@v3
         with:
-          name: screenshot.png
+          name: screenshot
           path: ~/download/path
     
       # - name: Checkout
