@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{page.title}} | Dane Jensen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/verdana-sm.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/css/gallery.css" rel="stylesheet">
+  </head>
+  <body>
+    <section class="container">
+      <article class="span10 offset1">
+        <div class="navheader">
+          <a href="/">home</a>
+        </div>
+        {{ content }}
+        <footer><a href="/">Dane Jensen</a><p style="margin-bottom: 0px;"><a href="/bio">Bio</a></p><p>danecjensen@gmail.com</p></footer>
+      </article>
+    </section>
+
+    <div id="lightbox" class="lightbox-overlay" style="display:none;">
+      <div class="lightbox-close">&times;</div>
+      <div class="lightbox-counter"></div>
+      <div class="lightbox-prev">&#8249;</div>
+      <div class="lightbox-next">&#8250;</div>
+      <div class="lightbox-img-wrap">
+        <img class="lightbox-img" src="" alt="">
+      </div>
+      <div class="lightbox-caption"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/gallery.js"></script>
+  </body>
+</html>
